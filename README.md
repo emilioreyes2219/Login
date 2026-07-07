@@ -123,9 +123,7 @@ El nombre se obtiene desde `localStorage`, simulando una sesión iniciada.
 
 ---
 
-# Pendiente de implementar
 
-Las siguientes funcionalidades serán desarrolladas posteriormente por el segundo integrante del equipo:
 
 - Sidebar.
 - Menú Usuarios.
