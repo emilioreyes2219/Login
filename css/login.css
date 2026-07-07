@@ -1,0 +1,110 @@
+/* ====== General ====== */
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ====== Panel izquierdo ====== */
+
+.fondo-login{
+    background:linear-gradient(135deg,#141414,#222222);
+}
+.fondo-login h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.fondo-login p{
+    font-size: 1.1rem;
+    color: #d6d6d6;
+}
+
+.logo{
+    width: 150px;
+    height: auto;
+}
+
+/* ====== Tarjeta Login ====== */
+
+.login-card{
+    width: 100%;
+    max-width: 430px;
+    border-radius: 18px;
+    background: #ffffff;
+    box-shadow: 0 12px 35px rgba(0,0,0,.12);
+    transition: .3s;
+}
+
+.login-card:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 18px 45px rgba(0,0,0,.18);
+}
+
+/* ====== Título ====== */
+
+.login-card h2{
+    color: #222;
+}
+
+/* ====== Labels ====== */
+
+.form-label{
+    color: #555;
+    font-weight: 600;
+}
+
+/* ====== Inputs ====== */
+
+.form-control{
+    border-radius: 10px;
+    padding: 12px;
+    border: 1px solid #d8d8d8;
+    background: #fafafa;
+    transition: .25s;
+}
+
+.form-control:focus{
+    border-color: #4d4d4d;
+    box-shadow: 0 0 0 .2rem rgba(70,70,70,.15);
+    background: white;
+}
+
+/* ====== Botón ====== */
+
+.btn-primary{
+    background: #2f2f2f;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.btn-primary:hover{
+    background: #111;
+    transform: translateY(-2px);
+}
+
+/* ====== Mensajes ====== */
+
+#mensaje{
+    min-height: 25px;
+    font-weight: 600;
+}
+
+/* ====== Responsive ====== */
+
+@media(max-width:992px){
+
+    body{
+        background:#ececec;
+    }
+
+    .login-card{
+        margin:20px;
+    }
+
+}
