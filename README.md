@@ -111,9 +111,9 @@ El nombre se obtiene desde `localStorage`, simulando una sesión iniciada.
 
 ---
 
-## Login exitoso
+## Login 
 
-*(Insertar captura aquí)*
+![Login](img/login3.jpg)
 
 ---
 
