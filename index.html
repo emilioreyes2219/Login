@@ -4,11 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
+
+    <script>
+        const usuario = localStorage.getItem("usuario");
+
+        if (!usuario) {
+            window.location.href = "login.html";
+        }
+    </script>
+
 </head>
+
 <body>
 
-    <h1>Bienvenido</h1>
-    <p>Este es el index principal de mi proyecto.</p>
+    <h1>Bienvenido al sistema</h1>
+
+    <p id="bienvenida"></p>
+
+    <script>
+        const nombre = localStorage.getItem("usuario");
+        document.getElementById("bienvenida").textContent =
+            "Hola, " + nombre;
+    </script>
 
 </body>
 </html>
