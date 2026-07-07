@@ -76,7 +76,7 @@ Finalmente, el nombre es mostrado en el navbar para simular una sesión iniciada
 
 Se diseñó una interfaz moderna utilizando Bootstrap y estilos personalizados con una distribución de dos columnas, una sección de bienvenida y un formulario de inicio de sesión.
 
-![Diseño del Login](img/capturas/login1.jpg)
+![Diseño del Login](img/login1.jpg)
 
 ---
 
@@ -87,7 +87,7 @@ Se integró la librería `utileria.js` para validar el formato del correo electr
 Posteriormente se comparan los datos contra una lista de usuarios simulados.
 
 
-![Validación del Login](img/capturas/login2.jpg)
+![Validación del Login](img/login2.jpg)
 
 ---
 
