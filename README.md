@@ -3,7 +3,7 @@
 ## Integrantes
 
 - Jorge Emilio Nuñez Reyes
-- Pon tu nombre
+- Gerardo Jared Martinez Espina
 
 ---
 # Github Pages
