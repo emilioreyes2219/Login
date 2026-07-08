@@ -125,9 +125,9 @@ El nombre se obtiene desde `localStorage`, simulando una sesión iniciada.
 ## 🧱 Desarrollo de Módulos Restantes
 
 ### 1. Sidebar (Menú Lateral) y Menú Usuarios
-[cite_start]Se maquetó un contenedor lateral fijo (`#sidebar-wrapper`) utilizando estilos oscuros integrados con Bootstrap 5 para el diseño responsivo[cite: 145, 151]. 
+Se maquetó un contenedor lateral fijo utilizando estilos oscuros integrados con Bootstrap 5 para el diseño responsivo. 
 * **Menú Desplegable:** Se implementó la opción **Usuarios** mediante el componente `collapse` de Bootstrap, el cual despliega de forma animada el submenú **Captura Alumnos** al hacerle clic.
-* **Botón Hamburguesa:** En la barra superior se integró un botón con el ícono `bi-list`. [cite_start]Mediante JavaScript en `dashboard.js`, este botón altera la clase `.toggled` del contenedor principal, permitiendo contraer o expandir el menú lateral para optimizar el espacio de trabajo en pantallas pequeñas[cite: 151, 158].
+* **Botón Hamburguesa:** En la barra superior se integró un botón con el ícono `bi-list`.Mediante JavaScript en `dashboard.js`, este botón altera la clase `.toggled` del contenedor principal, permitiendo contraer o expandir el menú lateral para optimizar el espacio de trabajo en pantallas pequeñas.
 
 ### 2. Formulario de Captura y Campo Número de Control
 Dentro de la zona central se diseñó una tarjeta limpia que aloja el formulario de captura para nuevos estudiantes.
@@ -137,7 +137,7 @@ Dentro de la zona central se diseñó una tarjeta limpia que aloja el formulario
 ### 3. Modal para Validar Mayoría de Edad
 Para evitar el uso de alertas nativas del navegador, se integró un componente `<div class="modal fade">` de Bootstrap 5 oculto en la estructura del documento.
 * **Lógica de Activación:** Al presionar "Validar y Registrar Alumno", el script captura la fecha de nacimiento seleccionada y la evalúa con la función `Util.esMayorDeEdad()`.
-* [cite_start]**Inyección Dinámica del DOM:** Si el método devuelve verdadero, JavaScript inyecta un ícono verde (`bi-person-check-fill`) junto al título "Acceso Autorizado"[cite: 157]. [cite_start]Si es menor de edad, se altera el DOM para mostrar un ícono rojo (`bi-person-x-fill`) y un mensaje de restricción[cite: 157].
+* **Inyección Dinámica del DOM:** Si el método devuelve verdadero, JavaScript inyecta un ícono verde (`bi-person-check-fill`) junto al título "Acceso Autorizado". Si es menor de edad, se altera el DOM para mostrar un ícono rojo (`bi-person-x-fill`) y un mensaje de restricción.
 * **Despliegue:** El cuadro emerge en pantalla de forma interactiva utilizando la API nativa del framework: `modalBootstrap.show()`.
 
 ### 4. GitHub Pages e Interconexión del Sistema
