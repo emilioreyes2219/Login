@@ -1,0 +1,16 @@
+# ====== Configuración de Editores de Código ======
+# Ignora las carpetas de configuración interna de VS Code
+.vscode/
+
+# Ignora configuraciones de editores basados en IntelliJ (WebStorm, PHPStorm, etc.)
+.idea/
+
+# ====== Archivos del Sistema Operativo ======
+# Archivos basura que crea automáticamente Windows al ver carpetas
+Thumbs.db
+desktop.ini
+
+# ====== Archivos Temporales o de Respaldo ======
+*.log
+*.tmp
+*.bak
